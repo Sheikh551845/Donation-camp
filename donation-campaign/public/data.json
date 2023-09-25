@@ -1,15 +1,15 @@
 [
-  {
+  {   "id" : "1",
       "picture": "https://i.ibb.co/qySzSDj/Education.png",
       "title": "Education Fund",
       "category": "Education",
       "category_color": "#3498db",
       "card_bg_color": "#7fb3d5",
-      "text_button_bg_color": "#2d3e50",
+      "text_button_bg_color": "#3399CC",
       "description": "Support children's education and provide them with access to quality learning materials. Your contribution will help shape the future by empowering young minds with knowledge and skills. Give the gift of education today! Your support enables us to build schools, provide educational resources, and offer scholarships to underprivileged students. Together, we can break barriers to learning and create a brighter, more inclusive future for all children. Join us in making a lasting impact on generations to come.",
       "price": "$25"
   },
-  {
+  {   "id" : "2",
       "picture": "https://i.ibb.co/3kbCT0W/Health.png",
       "title": "Healthcare Initiative",
       "category": "Health",
@@ -19,7 +19,7 @@
       "description": "Help provide medical assistance and healthcare services to those in need. Your contribution ensures that individuals receive the care and attention they require for a healthier, brighter future. Make a difference in someone's life today! Your donation supports medical clinics, supplies essential medications, and funds critical treatments for those who cannot afford them. Together, we can improve health outcomes and save lives. Join us in the journey towards a healthier, happier community.",
       "price": "$50"
   },
-  {
+  {   "id" : "3",
       "picture": "https://i.ibb.co/5rBtxsT/water.jpg",
       "title": "Clean Water Project",
       "category": "Environment",
@@ -29,7 +29,7 @@
       "description": "Support initiatives to provide clean and safe drinking water in communities. Your donation will make a significant impact on improving the health and well-being of people by ensuring access to this basic necessity. Be a part of the solution! Your support enables us to build water infrastructure, purify water sources, and implement sanitation programs. Together, we can transform lives by providing a fundamental resource for health and well-being. Join us in the mission for clean, accessible water for all.",
       "price": "$30"
   },
-  {
+  {   "id" : "4",
       "picture": "https://i.ibb.co/w4BRfjS/Food.png",
       "title": "Food Drive",
       "category": "Food",
@@ -39,7 +39,7 @@
       "description": "Contribute to feeding programs and help combat hunger in your community. Your generous donation will provide essential sustenance to those facing food insecurity, making a tangible difference in their lives. Join us in the fight against hunger! Your support enables us to distribute nutritious meals, establish community gardens, and run educational programs on sustainable food practices. Together, we can ensure that no one goes to bed hungry. Join us in creating a world where everyone has access to wholesome meals.",
       "price": "$20"
   },
-  {
+  {   "id" : "5",
       "picture": "https://i.ibb.co/PYc7qfL/animal.jpg",
       "title": "Animal Welfare Fund",
       "category": "Animals",
@@ -49,7 +49,7 @@
       "description": "Support organizations working to protect and care for animals. Your donation helps ensure the well-being of animals in need, providing them with the care, shelter, and love they deserve. Make a difference for our furry friends! Your support enables us to rescue and rehabilitate animals, provide veterinary care, and promote responsible pet ownership. Together, we can create a world where every animal is valued and protected. Join us in advocating for the welfare of our animal companions.",
       "price": "$35"
   },
-  {
+  {   "id" : "6",
       "picture": "https://i.ibb.co/GJ9WWnM/welfare.jpg",
       "title": "Shelter for the Homeless",
       "category": "Social Welfare",
@@ -59,7 +59,7 @@
       "description": "Help provide safe and secure shelters for individuals experiencing homelessness. Your contribution offers a lifeline to those in need, offering them a place of safety and dignity. Extend a helping hand to those without a home! Your support enables us to operate shelters, offer essential services, and provide resources for individuals to regain stability. Together, we can offer hope and a fresh start to those facing homelessness. Join us in creating a community where everyone has a place to call home.",
       "price": "$40"
   },
-  {
+  {   "id" : "7",
       "picture": "https://i.ibb.co/k81NsZV/Emergency.jpg",
       "title": "Disaster Relief Fund",
       "category": "Emergency",
@@ -69,7 +69,7 @@
       "description": "Support disaster response efforts and help communities recover after natural disasters. Your donation provides crucial aid during emergencies, aiding in the recovery and rebuilding process. Be a beacon of hope in times of crisis! Your support enables us to deploy emergency response teams, provide medical assistance, and offer relief supplies to affected communities. Together, we can stand strong in the face of adversity and help communities rebuild. Join us in providing immediate relief and long-term recovery support.",
       "price": "$50"
   },
-  {
+  {   "id" : "8",
       "picture": "https://i.ibb.co/kDjKChM/arts.jpg",
       "title": "Art & Culture Program",
       "category": "Arts",
@@ -79,7 +79,7 @@
       "description": "Foster creativity and cultural enrichment through arts and cultural programs. Your contribution supports initiatives that inspire and empower individuals through artistic expression. Join us in celebrating creativity! Your support enables us to offer art classes, exhibitions, and cultural events that enrich the lives of participants. Together, we can create a vibrant, inclusive community where creativity thrives. Join us in nurturing the talents and imaginations of individuals of all ages.",
       "price": "$30"
   },
-  {
+  {   "id" : "9",
       "picture": "https://i.ibb.co/QCgDLN7/senior-citizen.jpg",
       "title": "Elderly Care Support",
       "category": "Senior Citizens",
@@ -89,7 +89,7 @@
       "description": "Provide assistance and companionship to elderly individuals in need of care. Your donation ensures that seniors receive the support and attention they deserve, enhancing their quality of life. Brighten the lives of our elders! Your support enables us to offer home visits, companionship programs, and essential services to elderly individuals. Together, we can create a community where seniors are valued, respected, and supported in their golden years. Join us in making a positive difference in the lives of our elders.",
       "price": "$25"
   },
-  {
+  {   "id" : "10",
       "picture": "https://i.ibb.co/mbpHJyT/woman.jpg",
       "title": "Empowerment for Women",
       "category": "Women Empowerment",
@@ -99,7 +99,7 @@
       "description": "Support initiatives that empower and uplift women in your community. Your contribution helps break barriers and creates opportunities for women to thrive and succeed. Join us in championing women's empowerment! Your support enables us to offer mentorship programs, skill-building workshops, and entrepreneurship initiatives. Together, we can create a world where women have equal access to opportunities and resources. Join us in building a more inclusive and empowered future for all women.",
       "price": "$35"
   },
-  {
+  {   "id" : "11",
       "picture": "https://i.ibb.co/YZRt5rx/sports.jpg",
       "title": "Sports Development",
       "category": "Sports",
@@ -109,7 +109,7 @@
       "description": "Promote sports participation and development among youth and communities. Your donation encourages physical fitness, teamwork, and skill-building in a supportive and inclusive environment. Join us in promoting sports and athleticism! Your support enables us to provide sports equipment, organize leagues, and offer training programs for aspiring athletes. Together, we can create a culture of sportsmanship, healthy competition, and personal growth. Join us in fostering a love for sports in our communities.",
       "price": "$45"
   },
-  {
+  {   "id" : "12",
       "picture": "https://i.ibb.co/MVmpKDc/tech-edu.webp",
       "title": "Technology for Education",
       "category": "Education",

@@ -10,12 +10,14 @@ import Statistics from './pages/Statistics';
 import Donation from './pages/Donation';
 import Home from './pages/Home';
 import Details from './pages/Details';
+import ErrorPage from './pages/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Layout></Layout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children : [
       {
         path: "/Statistics",
@@ -31,8 +33,9 @@ const router = createBrowserRouter([
         loader: ()=>fetch("/data.json")
       },
       {
-        path: "/Details",
+        path: "/Details/:id",
         element:<Details></Details>, 
+        loader: ()=>fetch("/data.json")
       }
     ]
   },
