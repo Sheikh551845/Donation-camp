@@ -8,6 +8,8 @@ import './index.css'
 import Layout from './pages/layout';
 import Statistics from './pages/Statistics';
 import Donation from './pages/Donation';
+import Home from './pages/Home';
+import Details from './pages/Details';
 
 
 const router = createBrowserRouter([
@@ -22,10 +24,21 @@ const router = createBrowserRouter([
       {
         path: "/Donation",
         element:<Donation></Donation>, 
+      },
+      {
+        path: "/Home",
+        element: <Home></Home>,
+        loader: ()=>fetch("/data.json")
+      },
+      {
+        path: "/Details",
+        element:<Details></Details>, 
       }
     ]
   },
 ]);
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
