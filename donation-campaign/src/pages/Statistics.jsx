@@ -1,9 +1,12 @@
 import React from 'react'
+import SimplePieChart from '../components/SimplePieChart'
+
 
 export default function Statistics() {
+  
   return (
     <div>
-      <p>This is Statistics</p>
+      <SimplePieChart></SimplePieChart>
     </div>
   )
 }

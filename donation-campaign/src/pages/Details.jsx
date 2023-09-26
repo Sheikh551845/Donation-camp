@@ -4,6 +4,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Details() {
+
+  const notify = () => toast("This is a toast message");
  
      const {id}=useParams()
      
@@ -32,7 +34,7 @@ export default function Details() {
         if (!DonateItems) {
           addedDonateArray.push(card);
           localStorage.setItem("Donated", JSON.stringify(addedDonateArray));
-          toast.success("This is a success message")
+          toast.success("Donation Added Successfully")
         } 
         
         else {
@@ -45,15 +47,11 @@ export default function Details() {
     
             addedDonateArray.push(...DonateItems, card);
             localStorage.setItem("Donated", JSON.stringify(addedDonateArray));
-            toast.success("This is a success message")
+            toast.success("Donation Added Successfully")
            
           } else {
-            toast.error("This is an error message");
+            toast.error("This Category Already Added");
           }
-    
-        
-    
-    
         }
     
       };
@@ -67,6 +65,7 @@ export default function Details() {
         </div>
         <div className="w-full h-[120px]  bg-black bg-opacity-60 bg-blend-overlay">
              <button onClick={handleAddToDonate} className="text-white rounded-lg p-4 text-lg  mt-5 ml-5"   style={{ backgroundColor: `${text_button_bg_color}` }}>Donate {price}</button>
+             <ToastContainer />
         </div>
       </div>
       <div className="mt-12 p-5">
@@ -74,5 +73,7 @@ export default function Details() {
             <p className="text-lg">{description}</p>
       </div>
     </div>
+
+    
   )
 }

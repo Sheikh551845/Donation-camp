@@ -3,7 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 
 export default function DonatedCard({donation}) {
     const {picture,category,title,card_bg_color,text_button_bg_color,id,price,category_color}=donation;
-    console.log(donation)
+   
   return (
     <div>
       <div className="card w-[300px] h-[250px] md:h-[260px] md:w-[600px] shadow-xl flex flex-row lg:gap-5" style={{ backgroundColor: `${card_bg_color}` }}>
