@@ -6,8 +6,16 @@ import { PieChart, Pie, Tooltip, Cell } from 'recharts';
 const SimplePieChart = () => {
 
     const dynamicValue = JSON.parse(localStorage.getItem('Donated'));
-    const length = dynamicValue.length;
-
+    
+       let length =0;
+      if(dynamicValue === null )
+      {
+         length = 0;
+      }
+      else
+      {
+        length = dynamicValue.length;
+      }
 
     const data = [
         { name: 'Total donation category', value: 12 },
