@@ -14,7 +14,7 @@ export default function Navbar() {
     <ul className="mt-5 flex gap-7 mr-7 text-lg">
       <li>
         <NavLink
-              to="/Home"
+              to="/"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
               }
