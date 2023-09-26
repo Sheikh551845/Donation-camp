@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link, Navigate } from 'react-router-dom';
 
-export default function HomeCard({data}) {
+export default function HomeCard({filteredCards}) {
     
-    const {picture,category,title,card_bg_color,text_button_bg_color,id}=data || {};
+    const {picture,category,title,card_bg_color,text_button_bg_color,id}=filteredCards || {};
   return (
     <div>
       <Link to={`/Details/${id}`}> 
@@ -15,7 +15,6 @@ export default function HomeCard({data}) {
       </div>
       </div>
       </Link>
-      
     </div>
   )
 }

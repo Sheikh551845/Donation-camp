@@ -1,18 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useLoaderData, useOutletContext } from 'react-router-dom'
 import Banner from '../components/Banner'
 import Cards from '../components/Cards';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
   
-  const data= useLoaderData();
+  const allCards= useLoaderData();
 
-  // console.log(data);
+  const [filteredCards, setFilteredCards] = useState(allCards);
+
+  const handleFilterSubmit = (filterText) => {
+    const filtered = allCards.filter(card => filterText.toLowerCase()==card.category.toLowerCase());
+
+    if((filtered.length) == 0)
+    {
+      setFilteredCards(allCards);
+      toast.error("This Category not found");
+    }
+
+    else{
+      setFilteredCards(filtered); 
+    }
+    
+    // console.log(filterText)
+  };
+  
+//   console.log(allCards);
+// console.log(filteredCards);
 
   return (
     <div >
-      <Banner></Banner>
-      <Cards data={data}></Cards>
+      <Banner onFilterSubmit={handleFilterSubmit}></Banner>
+      <Cards filteredCards={filteredCards} ></Cards>
+      <div >
+      <ToastContainer />
+      </div>
+    
 
       
     </div>

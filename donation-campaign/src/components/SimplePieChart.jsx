@@ -10,8 +10,8 @@ const SimplePieChart = () => {
 
 
     const data = [
-        { name: 'Static Value', value: 12 },
-        { name: 'Dynamic Value', value: length },
+        { name: 'Total donation category', value: 12 },
+        { name: 'Your donated category', value: length },
       ];
 
       const COLORS = ['#FF444A', '#00C49F'];
@@ -30,9 +30,9 @@ const SimplePieChart = () => {
       };
 
     return (
-        <div className="flex flex-col gap-10 justify-center items-center mt-12">
+        <div className="flex flex-col gap-10 justify-center items-center my-12">
        
-          <PieChart width={600} height={600} >
+          <PieChart width={300} height={300} >
             <Pie
            
               data={data}
@@ -40,7 +40,7 @@ const SimplePieChart = () => {
               nameKey="name"
               cx="50%"
               cy="50%"
-              outerRadius={300}
+              outerRadius={150}
               fill="#8884d8"
               label={renderCustomizedLabel}
             >
@@ -51,14 +51,14 @@ const SimplePieChart = () => {
             <Tooltip />
           </PieChart>
 
-          <div className="flex flex-row gap-10 justify-center items-center ">
+          <div className="flex flex-col lg:flex-row gap-10 justify-center items-center ">
             <div className="flex flex-row gap-2 justify-center items-center">
-             <p className="text-xl font-bold">Total donation category</p>
-             <div className="w-32 h-4 bg-[#FF444A]"></div>
+             <p className="text-lg lg:text-xl  font-bold">Total donation category</p>
+             <div className="w-28 h-3 lg:w-32 lg:h-4 bg-[#FF444A]"></div>
             </div>
             <div className="flex flex-row gap-2 justify-center items-center">
-             <p className="text-xl font-bold">Your donated category</p>
-             <div className="w-32 h-4 bg-[#00C49F]"></div>
+             <p className="text-lg lg:text-xl font-bold">Your donated category</p>
+             <div className="w-28 h-3 lg:w-32 lg:h-4 bg-[#00C49F]"></div>
             </div>
            
           </div>
