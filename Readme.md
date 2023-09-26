@@ -1,12 +1,8 @@
-# donation-campaign
 
-## Private Repo Link
+projects features are following: 
 
-[Click here for the private repo](https://classroom.github.com/a/ymFUnXH9)
-
-
-
-##  Questions
-Add Readme.md file and will have the following: 
-
-- Add at least 3 Project features 
+- This project has cards for donation according to a category.
+- By clicking each card in home page one can see the details of that card.
+- One can donate for specific category by seeing details of that category.
+- The navbar has three option one can navigate page by clicking on the option.
+- This project is responsive that's mean this project will run properly in all kind of device.

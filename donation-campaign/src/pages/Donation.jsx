@@ -17,7 +17,7 @@ export default function Donation() {
       setDonated(DonatedCards);
 
     } else {
-      setNoFound("No Donation Added Yet");
+      setNoFound("No Donation Added Yet!");
     }
   }, []);
 
@@ -31,7 +31,7 @@ export default function Donation() {
   return (
     <div className="pb-10">
        {noFound ? (
-        <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
+        <p className="h-[80vh] flex justify-center items-center text-2xl font-bold text-center">{noFound} <br /> Please Donate.</p>
       ) : (
         <div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ml-16 md:ml-24 lg:ml-24 my-10">
